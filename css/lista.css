@@ -1,0 +1,211 @@
+body {
+  background: rgb(9,11,19);
+  font-family: cursive;
+  color: white;
+}
+
+
+@media screen and (max-width: 575px) {
+   aside .carousel {  display: none;    }
+   main .si1 { height: 30vh ; width: 30vh;}
+    main .si2 { height: 30vh ; width: 30vh;}
+     main .si3 { height: 30vh ; width: 30vh;}
+     section .si1 { height: 30vh ; width: 30vh;}
+     section .si1 { height: 30vh ; width: 30vh;}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+header {
+ background: rgb(44,46,58);
+border: 1px solid yellow;
+margin: 20px;
+}
+
+.dudamel {
+
+ width: 1000px;
+ height: 500px;
+}
+
+.michael {
+ width: 1000px;
+height: 500px;
+
+}
+
+aside {
+  background: rgb(44,46,58);
+ margin-left: 200px;
+ align-items: center;
+  float: left;
+
+     animation-name: mianimacion;
+     animation-duration: 4s;
+     animation-delay: 0.1s;
+}
+
+@keyframes mianimacion {
+  0% {border: 1px solid  0px 20px 35px black;}
+  50% {border: 1px solid  0px 20px 35px yellow;}
+  100% {border: 1px solid  0px 20px 35px purple;}
+
+}
+
+
+
+
+main {
+  background: rgb(44,46,58);
+
+
+}
+
+section {
+
+
+
+
+}
+
+aside {
+
+
+}
+
+.animado {
+
+ opacity: 0;
+ transition: all 0.5s;
+
+}
+
+.mostrarArriba {
+  animation: mostrarArriba 1s;
+
+}
+
+@keyframes mostrarArriba {
+  0%{
+    transform: translateY(-10px);
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+}
+
+
+.navegador {
+ background: rgb(44,46,58);
+ position: fixed;
+ top: 93%;
+ width: 1400px;
+ color: white;
+ border: 1px solid yellow;
+ z-index: 50;
+
+
+}
+
+.nav-link {
+  color: white
+}
+
+
+.si1 {
+
+       float: center;
+       margin: 50px;
+      width: 300px;
+      border-radius: 6px;
+      overflow: hidden;
+      cursor: pointer;
+
+
+  }
+
+
+.si1:hover {
+    width: 300px;
+    transition-duration: 1.100s;
+border: 1px solid yellow;
+box-shadow: 0px 15px 25px;
+
+  }
+
+
+
+.si2 {
+
+       float: center;
+       margin: 50px;
+      width: 300px;
+      border-radius: 6px;
+  }
+
+
+
+
+
+.si2:hover {
+    width: 300px;
+    transition: all 500ms ease-out;
+    border: 1px solid yellow;
+    box-shadow: 0px 15px 25px;
+
+  }
+
+
+.si3 {
+
+       float: center;
+       margin: 50px;
+      width: 300px;
+      border-radius: 6px;
+
+  }
+
+
+.si3:hover {
+    width: 300px;
+    transition-duration: 1.100s;
+    border: 1px solid yellow;
+    box-shadow: 0px 15px 25px;
+
+  }
+
+}
+
+
+/* scrool */
+html{
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+  background: #717171;
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 10px #00000070;
+border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, .4);
+background: linear-gradient(125deg, #18181a,);
+border-radius: 20px;
+
+
+}

@@ -1,0 +1,337 @@
+body {
+  background: rgb(9,11,19);
+    color: white;
+    font-family: cursive;
+    margin: 0;
+}
+
+
+
+
+.btn{
+position: fixed;
+top: 0;
+right: 0;
+width: 90px;
+background: rgb(44,46,58);
+color: white;
+index: 100%;
+
+}
+
+
+.btn:hover{
+color: gray;
+}
+
+
+.spread{
+  transform: translate(0);
+}
+
+.menu-navegacion a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.text {
+   color: white;
+   text-decoration: underline;
+
+}
+
+.logo{
+  background: linear-gradient(orange,yellow);
+   -webkit-background-clip: text;
+   color: transparent;
+
+
+}
+
+
+/* celular */
+
+@media screen and (max-width: 575px) {
+  section .carousel { display: none;}
+  section .text {display: none;}
+  aside {  height: 300vh; width: 100vw;  }
+  aside .si1 { height: 30vh ; width: 30vh;}
+  aside .si2 { height: 30vh ; width: 30vh;}
+  aside .si3 { height: 30vh ; width: 30vh;}
+  aside .si4 { height: 30vh ; width: 30vh;}
+  aside .si5 { height: 30vh ; width: 30vh;}
+  aside  .si6 { width: 50vw; height: 30vh;}
+  header .menu .card1 {height: 30vh; width: 60vw;}
+  header .menu .card2 {right: 1000%;height: 30vh; width: 60vw;}
+  header .menu .card3 {height: 30vh; width: 60vw;}
+  header {  height: 149vh; width: 100vw;    }
+  .navegador .navq { height: 10vh;     }
+
+
+
+
+}
+
+
+
+
+/*otro*/
+
+.card1 {
+  width: 300px;
+  margin: 70px;
+  border-radius: 6px;
+  justify-content: space-around;
+}
+
+ .card1:hover {
+   transition-duration: 1.100s;
+   box-shadow: 0px 15px 25px;
+   animation-name: mianimacion;
+   animation-duration: 4s;
+   animation-delay: 0.1s;
+}
+
+
+.card2 {
+
+  width: 270px;
+   float: center;
+   margin: 70px;
+   border-radius: 6px;
+   box-shadow: black;
+
+
+}
+
+@keyframes mianimacion {
+  0% {box-shadow: 0px 20px 35px black;}
+  50% {box-shadow: 0px 20px 35px yellow;}
+  100% {box-shadow: 0px 20px 35px purple;}
+
+}
+
+.card2:hover {
+
+   transition-duration: 1.100s;
+   box-shadow: 0px 20px 35px;
+   animation-name: mianimacion;
+   animation-duration: 4s;
+   animation-delay: 0.1s;
+
+}
+
+
+.card3 {
+    width: 300px;
+   float: center;
+   margin: 70px;
+  border-radius: 6px;
+}
+
+
+.card3:hover {
+   transition-duration: 1.100s;
+   box-shadow: 0px 15px 25px;
+   animation-name: mianimacion;
+   animation-duration: 4s;
+   animation-delay: 0.1s;
+}
+
+/*carrusel*/
+
+.dudamel {
+
+ width: 1000px;
+ height: 500px;
+}
+
+.michael {
+ width: 1000px;
+height: 500px;
+
+}
+
+section {
+  background: rgb(44,46,58);
+ width: 1000px;
+ align-items: center;
+ margin: 160px;
+}
+
+
+
+
+section:hover {
+  border: 1px solid yellow;
+
+
+
+}
+
+
+header {
+  border: 1px solid yellow;
+ background: rgb(44,46,58);
+
+}
+
+
+
+
+}
+
+.nav-link {
+  color: white
+}
+
+aside {
+    border: 1px solid yellow;
+  background: rgb(9,11,19);
+}
+
+
+
+.si1 {
+     float: center;
+     margin: 50px;
+    width: 300px;
+
+
+}
+
+
+.animado {
+  opacity:  0;
+  transition: all 0.5s;
+
+
+
+}
+
+.mostrarArriba {
+  animation: mostrarArriba 1s;
+
+
+}
+
+@keyframes mostrarArriba {
+  0% {
+    transform: translatey(-70px);
+    100% {
+
+   transform: translateY(0px);
+
+    }
+
+  }
+
+}
+
+.si1:hover {
+  width: 300px;
+  transition-duration: 1.100s;
+  border: 1px solid yellow;
+
+}
+
+.si2:hover {
+  width: 300px;
+  transition-duration: 1.100s;
+  border: 1px solid yellow;
+}
+
+.si3:hover {
+  width: 300px;
+  transition-duration: 1.100s;
+border: 1px solid yellow;}
+
+  .si4:hover {
+  width: 300px;
+  transition-duration: 1.100s;
+  border: 1px solid yellow; }
+
+    .si5:hover {
+  width: 300px;
+   transition-duration: 1.100s;
+  border: 1px solid yellow;}
+
+   .si6:hover {
+     width: 300px;
+     transition-duration: 1.100s;
+   border: 1px solid yellow;}
+
+.si2 {
+
+  width: 300px;
+     float: center;
+     margin: 50px;
+
+}
+
+.si3 {
+  width: 300px;
+     float: center;
+    margin: 50px;
+
+}
+
+.si4 {
+  width: 300px;
+     float: center;
+     margin: 50px;
+
+}
+
+.si5 {
+  width: 300px;
+     float: center;
+     margin: 50px;
+
+}
+
+.si6 {
+  width: 2px;
+     float: center;
+  margin: 50px;
+}
+
+footer {
+
+  background-color: black;
+  width: 1349px;
+  height: 500px;
+
+}
+
+
+.instagram {
+ width: 100px;
+
+
+}
+
+
+/* scrool */
+html{
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+  background: #717171;
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 10px #00000070;
+border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, .4);
+background: linear-gradient(125deg, #18181a,);
+border-radius: 20px;
+
+
+}

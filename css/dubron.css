@@ -1,0 +1,89 @@
+body {
+  background: rgb(9,11,19);
+  color: white;
+    font-family: cursive;
+
+
+}
+
+@media screen and (max-width: 575px) {
+ section { height: 2000vw;         }
+
+
+
+
+
+}
+
+
+
+.navegador {
+ background: rgb(44,46,58);
+ position: fixed;
+ top: 93%;
+ width: 1400px;
+ border: 1px solid yellow;
+ z-index: 50;
+
+
+}
+
+.nav-link {
+  color: white
+}
+
+
+section {
+  background: rgb(44,46,58);
+  color: white;
+  height: 550px;
+
+
+}
+
+.astor {
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+
+    border: 1px solid #1f53c5;
+    color: black;
+
+    background-color: #C2C1C1;
+
+    top: 100%;
+
+    text-decoration: none;
+
+}
+
+.astor:hover {
+
+  background-color: #ADADAD;
+  font-size: 17px;
+  transition-duration: 0.1s;
+
+}
+
+/* scrool */
+html{
+  scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+  background: #717171;
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-track{
+box-shadow: inset 0 0 10px #00000070;
+border-radius: 6px;
+}
+::-webkit-scrollbar-thumb {
+background: rgba(0, 0, 0, .4);
+background: linear-gradient(125deg, #18181a,);
+border-radius: 20px;
+
+
+}

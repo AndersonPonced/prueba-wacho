@@ -1,0 +1,114 @@
+body {
+   background: rgb(9,11,19);
+   color: white;
+   font-family: cursive;
+}
+
+
+@media screen and (max-width: 575px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+header {
+  background: rgb(44,46,58);
+  margin: 20px;
+  border: 1px solid yellow;
+}
+
+
+section {
+  background: rgb(44,46,58);
+  height: 500px;
+  border: 1px solid yellow;
+
+}
+
+.navegador {
+background: rgb(44,46,58);
+ position: fixed;
+ top: 93%;
+ width: 1400px;
+ color: white;
+ border: 1px solid yellow;
+
+
+}
+
+.nav-link {
+  color: white
+}
+
+ .imagenes {
+  border-radius: 50%;
+ margin-left:  60px;
+ float:left;
+
+}
+
+.imagenes:hover {
+
+  width: 250px;
+ transition-duration: 1s;
+  border: 1px solid yellow;
+
+}
+
+.imageness {
+ border-radius: 50%;
+ float: left;
+margin-left:  200px;
+border: 1px solid yellow;
+
+}
+
+
+.imageness:hover {
+  width: 300px;
+ transition-duration: 0.1s;
+
+}
+
+
+.imagenesss {
+  border: 1px solid yellow;
+ border-radius: 50%;
+float: right;
+margin-right:  60px;
+
+}
+
+.imagenesss:hover {
+  width: 250px;
+  transition-duration: 0.1s;
+
+}
+
+.dubronsi h2 {
+
+margin-left: 100px;
+color: white;
+
+}
+
+.canserbero h2 {
+
+color: white;
+margin-left: 550px;
+
+}
+
+.gaita h2 {
+color: white;
+margin-left: 1150px;
+
+}

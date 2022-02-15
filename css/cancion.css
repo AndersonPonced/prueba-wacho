@@ -1,0 +1,83 @@
+body  {
+      background: rgb(9,11,19);
+    color: white;
+    font-family: cursive;
+
+}
+
+@media screen and (max-width: 575px) {
+  .duu { width: 1vw ; height: 45vh;  }
+  .duu .astor { margin-left: 10000%; }
+  .duu audio { height: 10vh; width: 60vw;}
+  .duu audio { margin-left: 50%; }
+  .duu .letra { position: absolute; top: 300px;}
+  .duu .letra { margin-left: 10000%;                  }
+
+
+
+
+
+}
+
+
+.duu{
+position:  absolute;
+top: 30px;
+
+display: flex;
+justify-content: center;
+
+}
+
+
+
+.astor {
+
+  top: 1000px;
+  display: flex;
+  margin-left: 250px;
+  justify-content: center;
+  width: 400px;
+  border: 1px solid #1f53c5;
+
+}
+
+.letra{
+  margin-left: 1px;
+
+
+}
+
+audio {
+   align-items: center;
+   position: fixed;
+   top: 500px;
+   margin-left: 250px;
+}
+
+.boton {
+
+  background-color:
+
+}
+
+.card1 {
+  width: 100px;
+
+
+}
+
+.navegador {
+ background: rgb(44,46,58);
+ position: fixed;
+ top: 93%;
+ width: 1400px;
+ border: 1px solid yellow;
+ z-index: 50;
+
+
+}
+
+.nav-link {
+  color: white
+}
